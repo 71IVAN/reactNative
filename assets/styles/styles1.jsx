@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
       color:'red',
       fontSize:22
     },
+
     tInput:{
       padding:10,
       textAling:'center',
