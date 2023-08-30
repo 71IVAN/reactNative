@@ -12,10 +12,11 @@ const styles = StyleSheet.create({
       fontSize:22
     },
 
-    tInput:{
+    tInputs:{
       padding:10,
       textAling:'center',
       borderRadius:10,
+      borderWidth:2,
       borderColor:'green'
     }
     
@@ -24,7 +25,7 @@ const styles = StyleSheet.create({
   const myimage = StyleSheet.create({
     images:{
         width:'100%',
-        height:'100%'
+        height:'70%'
     }
   })
 

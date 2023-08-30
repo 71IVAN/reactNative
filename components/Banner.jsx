@@ -5,7 +5,7 @@ import {styles, myimage} from '../assets/styles/styles1'
 function Banner(props) {
     return (
     <Image
-      style={{width:'80%', height:'70%', resizeMode:'strech'} }
+      style={{width:'80%', height:'40%', resizeMode:'strech'} }
       source={require(`../assets/images/${props.imagename}`)}
     />
     );
