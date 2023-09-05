@@ -37,6 +37,12 @@ export default function App() {
         case "/":
           mresult = mvalueUno / mvalueDos;
           break;
+
+          case "^":
+          mresult = mvalueUno ** mvalueDos
+          break;
+
+
       }
       setResult(mresult); // actuaizando la variable de estado 
     }
@@ -105,7 +111,7 @@ export default function App() {
 
   <Button icon="division" 
   mode="contained" 
-  onPress={() => calculate('/')}>
+  onPress={() => calculate('')}>
   radical
   </Button>
 
